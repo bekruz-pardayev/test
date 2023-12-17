@@ -1,0 +1,193 @@
+@media (max-width: 1230px) {
+  .about-us {
+    .about-us_container {
+      background-image: url(/src/img/header-tablet.png);
+      background-size: cover;
+      background-position: center;
+      .text {
+        max-width: 398px;
+        padding-left: 30px;
+        h1 {
+          font-size: 32px;
+        }
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .our-commitment {
+    .our-commitment_container {
+      .man-img {
+        width: 281px;
+        height: 470px;
+      }
+
+      .our-commitment_text {
+        max-width: 339px;
+        margin: 0 0 0 69px;
+        h1 {
+          font-size: 32px;
+        }
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  .uncompromising-quality {
+    .uncompromising-quality_container {
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+      align-items: center;
+      .uncompromising-quality_text {
+        margin: 65px 0;
+        max-width: 540px;
+        text-align: center;
+        padding: 0;
+        font-size: 15px;
+        h1 {
+          font-size: 32px;
+        }
+      }
+      .cofee-img {
+        display: none;
+      }
+      .cofee-mobile {
+        display: block;
+        margin-top: -160px;
+        border-radius: 8px;
+      }
+    }
+  }
+  .map {
+    .map-container {
+      margin-top: 144px;
+      .cards {
+        .card {
+          max-width: 223px;
+          h1 {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 920px) {
+  .our-commitment {
+    .our-commitment_container {
+      .man-img {
+        padding-left: 0;
+      }
+    }
+  }
+  .map {
+    .map-container {
+      h1 {
+        padding-left: 0;
+      }
+      .cards {
+        gap: 20px;
+        padding-left: 0;
+        .card {
+          width: 223px;
+        }
+      }
+    }
+  }
+  .footer {
+    .footer-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .footer_logo {
+        margin: 55px 0 32px 0;
+      }
+      .footer-list {
+        li {
+          font-size: 12px;
+        }
+      }
+      .social_media {
+        margin: 85px 0 54px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 625px) {
+  .header {
+    .header-container {
+      .nav {
+        .nav_list {
+          display: none;
+        }
+        .nav-icon {
+          display: block;
+        }
+      }
+    }
+  }
+  .about-us {
+    .about-us_container {
+      background-image: url(/src/img/header-mobile.png);
+      background-size: cover;
+      background-position: center;
+      .text {
+        width: 279px;
+        text-align: center;
+      }
+    }
+  }
+  .our-commitment {
+    .our-commitment_container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .man-img {
+        width: 327px;
+        height: 400px;
+      }
+      .our-commitment_text {
+        max-width: 327px;
+        text-align: center;
+        margin: 0;
+      }
+    }
+  }
+  .uncompromising-quality {
+    .uncompromising-quality_container {
+      .cofee-mobile {
+        display: block;
+        width: 279px;
+        height: 156px;
+        margin: 0;
+        margin-top: -70px;
+      }
+      .uncompromising-quality_text {
+        width: 279px;
+        text-align: center;
+        h1 {
+          font-size: 28px;
+        }
+      }
+    }
+  }
+  .map {
+    .map-container {
+      text-align: center;
+      .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+  }
+  .footer-list {
+    flex-direction: column;
+    text-align: center;
+  }
+}

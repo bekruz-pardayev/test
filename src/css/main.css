@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  min-height: 100vh;
+  color: #333d4b;
+}
+body h1 {
+  font-family: "Fraunces", serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+}
+body p {
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+body a {
+  color: #83888f;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  padding: 44px 0;
+}
+.header .header-container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header .header-container nav .nav_list {
+  padding-top: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 33px;
+}
+.header .header-container nav .nav_list li {
+  font-family: Barlow;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+.header .header-container nav .nav_list li:hover {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+.header .header-container nav .nav_list li:hover a {
+  color: black;
+}
+.header .header-container nav .nav-icon {
+  display: none;
+}
+
+.about-us {
+  padding: 0 20px;
+}
+.about-us .about-us_container {
+  max-width: 1280px;
+  min-height: 450px;
+  border-radius: 10px;
+  background-image: url(/src/img/header_img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-us .about-us_container .text {
+  max-width: 445px;
+  padding: 137px 0 0 85px;
+  color: #fefcf7;
+}
+.about-us .about-us_container .text p {
+  margin-top: 24px;
+}
+
+.our-commitment .our-commitment_container {
+  margin-top: 168px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.our-commitment .our-commitment_container .man-img {
+  border-radius: 10px;
+  width: 445px;
+  height: 520px;
+  padding-left: 85px;
+}
+.our-commitment .our-commitment_container .our-commitment_text {
+  width: 100%;
+  max-width: 538px;
+  margin: 90px 0 0 125px;
+}
+.our-commitment .our-commitment_container .our-commitment_text p {
+  margin-top: 32px;
+  opacity: 0.8;
+}
+
+.uncompromising-quality {
+  padding: 0 20px;
+}
+.uncompromising-quality .uncompromising-quality_container {
+  background: #2c343e;
+  border-radius: 8px;
+  margin-top: 256px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.uncompromising-quality .uncompromising-quality_container .uncompromising-quality_text {
+  max-width: 540px;
+  color: #fefcf7;
+  padding: 132px 0 0 85px;
+}
+.uncompromising-quality .uncompromising-quality_container .cofee-img {
+  max-width: 445px;
+  height: 474px;
+  border-radius: 8px;
+  position: relative;
+  bottom: 88px;
+  left: 125px;
+}
+.uncompromising-quality .uncompromising-quality_container .cofee-mobile {
+  display: none;
+}
+
+.map .map-container {
+  margin-top: 168px;
+}
+.map .map-container h1 {
+  color: #83888f;
+  font-size: 24px;
+  font-weight: 900;
+  padding-left: 85px;
+}
+.map .map-container .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 85px;
+  gap: 95px;
+  margin-top: 72px;
+}
+.map .map-container .cards .card {
+  width: 285px;
+}
+.map .map-container .cards .card h1 {
+  color: #333d4b;
+  font-size: 32px;
+  padding: 0;
+}
+
+.footer {
+  padding: 0 20px;
+}
+.footer .footer-container {
+  margin-top: 168px;
+  margin-bottom: 88px;
+  min-height: 120px;
+  background: #2c343e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.footer .footer-container .footer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 33px;
+}
+.footer .footer-container .footer-list li {
+  font-family: Barlow;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+.footer .footer-container .footer-list li:hover {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+.footer .footer-container .footer-list li:hover a {
+  color: white;
+}
+.footer .footer-container .social_media {
+  margin-right: 88px;
+}

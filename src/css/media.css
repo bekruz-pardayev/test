@@ -1,0 +1,177 @@
+@media (max-width: 1230px) {
+  .about-us .about-us_container {
+    background-image: url(/src/img/header-tablet.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .about-us .about-us_container .text {
+    max-width: 398px;
+    padding-left: 30px;
+  }
+  .about-us .about-us_container .text h1 {
+    font-size: 32px;
+  }
+  .about-us .about-us_container .text p {
+    font-size: 15px;
+  }
+  .our-commitment .our-commitment_container .man-img {
+    width: 281px;
+    height: 470px;
+  }
+  .our-commitment .our-commitment_container .our-commitment_text {
+    max-width: 339px;
+    margin: 0 0 0 69px;
+  }
+  .our-commitment .our-commitment_container .our-commitment_text h1 {
+    font-size: 32px;
+  }
+  .our-commitment .our-commitment_container .our-commitment_text p {
+    font-size: 15px;
+  }
+  .uncompromising-quality .uncompromising-quality_container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .uncompromising-quality .uncompromising-quality_container .uncompromising-quality_text {
+    margin: 65px 0;
+    max-width: 540px;
+    text-align: center;
+    padding: 0;
+    font-size: 15px;
+  }
+  .uncompromising-quality .uncompromising-quality_container .uncompromising-quality_text h1 {
+    font-size: 32px;
+  }
+  .uncompromising-quality .uncompromising-quality_container .cofee-img {
+    display: none;
+  }
+  .uncompromising-quality .uncompromising-quality_container .cofee-mobile {
+    display: block;
+    margin-top: -160px;
+    border-radius: 8px;
+  }
+  .map .map-container {
+    margin-top: 144px;
+  }
+  .map .map-container .cards .card {
+    max-width: 223px;
+  }
+  .map .map-container .cards .card h1 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 920px) {
+  .our-commitment .our-commitment_container .man-img {
+    padding-left: 0;
+  }
+  .map .map-container h1 {
+    padding-left: 0;
+  }
+  .map .map-container .cards {
+    gap: 20px;
+    padding-left: 0;
+  }
+  .map .map-container .cards .card {
+    width: 223px;
+  }
+  .footer .footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .footer-container .footer_logo {
+    margin: 55px 0 32px 0;
+  }
+  .footer .footer-container .footer-list li {
+    font-size: 12px;
+  }
+  .footer .footer-container .social_media {
+    margin: 85px 0 54px 0;
+  }
+}
+@media (max-width: 625px) {
+  .header .header-container .nav .nav_list {
+    display: none;
+  }
+  .header .header-container .nav .nav-icon {
+    display: block;
+  }
+  .about-us .about-us_container {
+    background-image: url(/src/img/header-mobile.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .about-us .about-us_container .text {
+    width: 279px;
+    text-align: center;
+  }
+  .our-commitment .our-commitment_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .our-commitment .our-commitment_container .man-img {
+    width: 327px;
+    height: 400px;
+  }
+  .our-commitment .our-commitment_container .our-commitment_text {
+    max-width: 327px;
+    text-align: center;
+    margin: 0;
+  }
+  .uncompromising-quality .uncompromising-quality_container .cofee-mobile {
+    display: block;
+    width: 279px;
+    height: 156px;
+    margin: 0;
+    margin-top: -70px;
+  }
+  .uncompromising-quality .uncompromising-quality_container .uncompromising-quality_text {
+    width: 279px;
+    text-align: center;
+  }
+  .uncompromising-quality .uncompromising-quality_container .uncompromising-quality_text h1 {
+    font-size: 28px;
+  }
+  .map .map-container {
+    text-align: center;
+  }
+  .map .map-container .cards {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
